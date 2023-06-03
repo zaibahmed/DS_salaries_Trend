@@ -10,7 +10,7 @@ st.set_page_config(layout='wide')
 
 
 #path = r'C:\Users\TOSHIBA\Downloads\ds_salaries.csv'
-data = pd.read_csv(ds_salaries.csv)
+data = pd.read_csv(r'C:\Users\TOSHIBA\Downloads\ds_salaries.csv')
 
 col1, col2,col3 = st.columns([4,1,1])
 
